@@ -1,6 +1,6 @@
 # LitmusChaos
 
-* Open source cloud native chaos engineering framework
+LitmusChaos is an Open source cloud-native chaos engineering framework with cross-cloud support. It is a CNCF incubating project with adoption across several organizations.
 
 ## Features
 
