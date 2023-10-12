@@ -1,6 +1,6 @@
 # LitmusChaos
 
-LitmusChaos is an Open source cloud-native chaos engineering framework with cross-cloud support. It is a CNCF incubating project with adoption across several organizations.
+Litmus is an open-source Chaos Engineering platform designed to help teams uncover infrastructure weaknesses and potential outages through controlled chaos tests. It provides a user-friendly experience, making Chaos Engineering easy for developers and SREs. Litmus adheres to modern chaos engineering best practices and benefits from community collaboration. Moreover, it's fully open source and hosted by CNCF.
 
 ## Features
 
