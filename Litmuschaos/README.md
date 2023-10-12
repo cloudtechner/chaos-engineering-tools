@@ -19,10 +19,26 @@
 ## litmuschaos experiments
 
 * Pod chaos
+    * Pod failure
+    * Container kill
+    * Pod autoscale
+
 * Node chaos
+    * Node drain
+    * Froced Eviction
+    * Node restart/Power off
+
 * Network chaos
+    * Network Latency
+    * Packet Loss
+    * Network Corruption
+
 * Stress chaos
+    * Pod,Node CPU Hog
+    * Pod,NOde Memory Hog
+    * Pod,Node Disk stress
+    * Pod ephemeral storage fill
+
 * cloud service
     * EKS EC2 termination
     * EBS disk detach
-* Application chaos
