@@ -55,13 +55,19 @@ The listed partners offer enterprise distributions, training, and commercial sup
 
 ### 1. Make a project in litmus chaos 
 <img width="602" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/5b983113-4c51-4190-bee3-fb3f31288a22">
+
 <br />
+
 ### 2. Create environment
 <img width="695" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/2eb3c853-1ba3-4aa4-b5a1-acf6ff22517f">
+
 <br />
+
 ### 3. Create chaos( Connect with infra which you want to perform experiments)
 <img width="527" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/4b188bdb-830c-4993-b776-e04cb2e8a50d">
+
 <br />
+
 ## Experiments and Steps to perform experiment
 
 * pod delete
