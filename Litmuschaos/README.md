@@ -68,8 +68,6 @@ The listed partners offer enterprise distributions, training, and commercial sup
 
 <br />
 <br />
-<br />
-<br />
 
 ## Experiments and Steps to perform experiment
 
