@@ -8,7 +8,7 @@ Litmus is an open-source Chaos Engineering platform designed to help teams uncov
 * Teams
 * GitOps
 * per organization (cross cloud)
-* Public and Private ChaosHubs
+* Public and Private ChaosHubs (template of experiments)
 * CLI and GUI
 * integrated and interleaved monitoring
 
