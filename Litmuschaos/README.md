@@ -71,4 +71,4 @@ The listed partners offer enterprise distributions, training, and commercial sup
 
 ## Experiments and Steps to perform experiment
 
-* [pod delete](cloudtechner/chaos-engineering-tools/Litmuschaos/pod-delete.md)
+* [pod delete](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/pod-delete.md)
