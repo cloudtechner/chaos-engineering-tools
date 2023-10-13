@@ -13,7 +13,7 @@
 
 <br/>
 
-### Step 3. Choose template from chaoshub
+### Step 3. Choose template from chaoshub (nginx pod delete)
 <br/>
 
 ![Alt text](image-4.png)
