@@ -50,3 +50,18 @@ The listed partners offer enterprise distributions, training, and commercial sup
  
 * [Enterprise](https://app.harness.io/auth/#/signin)
 * [self managed](https://github.com/litmuschaos/litmus)
+
+## Prerequisite for performing experiments
+
+1. Make a project in litmus chaos 
+<img width="602" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/5b983113-4c51-4190-bee3-fb3f31288a22">
+
+2. Create environment
+<img width="695" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/2eb3c853-1ba3-4aa4-b5a1-acf6ff22517f">
+
+3. Create chaos( Connect with infra which you want to perform experiments)
+<img width="527" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/4b188bdb-830c-4993-b776-e04cb2e8a50d">
+
+## Experiments and Step to perfrom experiment
+
+* pod delete
