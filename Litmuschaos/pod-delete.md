@@ -8,18 +8,21 @@
 
 ### Step 2. Choose chaos infra
 <br/>
+
 ![Alt text](image-2.png)
 
 <br/>
 
 ### Step 3. Choose template from chaoshub
 <br/>
+
 ![Alt text](image-4.png)
 
 <br/>
 
 ### Step 4. Setup and save workflow
 <br/>
+
 ![Alt text](image-5.png)
 
 <br/>
