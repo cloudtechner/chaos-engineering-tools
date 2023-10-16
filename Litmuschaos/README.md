@@ -59,6 +59,15 @@ The listed partners offer enterprise distributions, training, and commercial sup
 ### 1. Make a project in litmus chaos 
 <img width="602" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/5b983113-4c51-4190-bee3-fb3f31288a22">
 
+* select moudle
+
+<img width="270" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/9cf9aeb7-cbb1-4592-857c-632eb9cfddb9">
+
+* choose "Chaos Engineering"
+
+ <img width="451" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/36afd7b3-1b7f-4241-a275-adc601181ba7">
+
+
 <br />
 
 ### 2. Create environment
