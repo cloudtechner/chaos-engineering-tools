@@ -1,5 +1,8 @@
 # LitmusChaos
 
+![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/124ebca0-9760-4337-9a88-4a18a6de1554)
+
+
 Litmus is an open-source Chaos Engineering platform designed to help teams uncover infrastructure weaknesses and potential outages through controlled chaos tests. It provides a user-friendly experience, making Chaos Engineering easy for developers and SREs. Litmus adheres to modern chaos engineering best practices and benefits from community collaboration. Moreover, it's fully open source and hosted by CNCF.
 
 ## Features
