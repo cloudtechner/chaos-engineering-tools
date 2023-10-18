@@ -19,6 +19,15 @@ Litmus is an open-source Chaos Engineering platform designed to help teams uncov
 
 <img width="827" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/fb3bc0c0-6a95-4f9f-a95f-e300723a41f4">
 
+## Litmuschaos tiers
+
+LitmusChaos was originally created by ChaosNative (Acquired by Harness) and is a CNCF incubated project from 2022 January onwards.
+The listed partners offer enterprise distributions, training, and commercial support for LitmusChaos(Harness Chaos Engineering). There are two tier of litmus chaos tool.
+ 
+* [Enterprise](https://app.harness.io/auth/#/signin)
+* [self managed](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/litmus/Installation-guide.md) (Deployment guide for self hosted litmuschaos)
+
+
 ## Litmuschaos experiments
 
 * Pod chaos
@@ -46,14 +55,6 @@ Litmus is an open-source Chaos Engineering platform designed to help teams uncov
     * EKS EC2 termination
     * EBS disk detach
  
-## Litmuschaos tiers
-
-LitmusChaos was originally created by ChaosNative (Acquired by Harness) and is a CNCF incubated project from 2022 January onwards.
-The listed partners offer enterprise distributions, training, and commercial support for LitmusChaos(Harness Chaos Engineering). There are two tier of litmus chaos tool.
- 
-* [Enterprise](https://app.harness.io/auth/#/signin)
-* [self managed](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/litmus/Installation-guide.md) (Deployment guide for self hosted litmuschaos)
-
 ## Prerequisite for performing experiments
 
 ### 1. Make a project in litmus chaos 
