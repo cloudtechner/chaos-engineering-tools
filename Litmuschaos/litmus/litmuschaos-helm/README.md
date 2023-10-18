@@ -10,9 +10,8 @@ A Helm chart to install ChaosCenter
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| imrajdas | <raj.das@mayadata.io> |  |
-| ispeakc0de | <shubham.chaudhary@mayadata.io> |  |
-| jasstkn | <jasssstkn@yahoo.com> |  |
+| Pankaj | <pankaj.h@cloudtechner.com> |  |
+
 
 ## Source Code
 
