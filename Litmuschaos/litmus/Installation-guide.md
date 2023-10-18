@@ -25,8 +25,10 @@ $ helm install litmus . --namespace litmus  --create-namespace
 
 **1.** Hit loadbalncer ip with 9091 port. e.g  **<Loadbalncer_ip>:9091**
 
+<br/><br/>
+
 <img width="483" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/dbc368fb-a752-4d48-95c8-b80aace11080">
 
-<br/>
+<br/><br/>
 
 <img width="959" alt="Screenshot 2023-10-18 123213" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/02d1131c-4b45-4d11-be8c-9778858a164c">
