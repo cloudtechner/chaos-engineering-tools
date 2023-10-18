@@ -15,6 +15,7 @@ $ cd Litmuschaos/litmus/litmuschaos-helm
 
 $ helm install litmus . --namespace litmus  --create-namespace
 ```
+<br/>
 
 <img width="747" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/a8095c63-f70c-4eb6-ba69-df5429b4c442">
 
