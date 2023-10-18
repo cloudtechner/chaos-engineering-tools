@@ -20,14 +20,14 @@
 
 <br/>
 
-### Step 4. Setup and save workflow
 <br/>
 
-![Alt text](image-5.png)
+### Step 4. Run workflow 
+<br/>
+
+![Alt text](image-6.png)   
 
 <br/>
 
-### Step 5. Run workflow 
-<br/>
-
-![Alt text](image-6.png)    
+<img width="624" alt="Screenshot 2023-10-13 093203" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/beb55a17-e340-4893-a83d-2a7aef0489ff">
+ 
