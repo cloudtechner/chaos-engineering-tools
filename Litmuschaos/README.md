@@ -52,7 +52,7 @@ LitmusChaos was originally created by ChaosNative (Acquired by Harness) and is a
 The listed partners offer enterprise distributions, training, and commercial support for LitmusChaos(Harness Chaos Engineering). There are two tier of litmus chaos tool.
  
 * [Enterprise](https://app.harness.io/auth/#/signin)
-* [self managed](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/litmus/Installation-guide.md)
+* [self managed](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/litmus/Installation-guide.md) (Deployment guide for self hosted litmuschaos)
 
 ## Prerequisite for performing experiments
 
