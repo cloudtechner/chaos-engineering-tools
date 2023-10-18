@@ -5,7 +5,7 @@
 **1.**  Create a Litmus namespace in Kubernetes
 
 ```console
-kubectl create ns litmus
+$ kubectl create ns litmus
 ```
 
 **2.** Move to helm chart directory and  Install Litmus
