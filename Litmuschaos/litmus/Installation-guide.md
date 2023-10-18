@@ -2,11 +2,11 @@
 
 ## Install Litmus using Helm
 
-1.Create a Litmus namespace in Kubernetes
+* Create a Litmus namespace in Kubernetes
 
 `kubectl create ns litmus`
 
-2. Move to helm chart directory and  Install Litmus
+* Move to helm chart directory and  Install Litmus
 
 `cd Litmuschaos/litmus/litmuschaos-helm`
 
