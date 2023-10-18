@@ -2,11 +2,11 @@
 
 ## Install Litmus using Helm
 
-* Create a Litmus namespace in Kubernetes
+**1.**  Create a Litmus namespace in Kubernetes
 
 `kubectl create ns litmus`
 
-* Move to helm chart directory and  Install Litmus
+**2.** Move to helm chart directory and  Install Litmus
 
 `cd Litmuschaos/litmus/litmuschaos-helm`
 
@@ -16,7 +16,7 @@
 
 ## Access and Login to ChaosCenter Dashboard
 
-1. Hit loadbalncer ip with 9091 port. e.g  **<Loadbalncer_ip>:9091**
+**1.** Hit loadbalncer ip with 9091 port. e.g  **<Loadbalncer_ip>:9091**
 
 <img width="483" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/dbc368fb-a752-4d48-95c8-b80aace11080">
 
