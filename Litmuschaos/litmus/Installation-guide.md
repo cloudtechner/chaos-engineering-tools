@@ -2,7 +2,7 @@
 
 ## Install Litmus using Helm
 
-**1.**  Clone this repo.
+**1.**  Clone this repository using below command
 
 ```console
 $ git clone https://github.com/cloudtechner/chaos-engineering-tools.git
