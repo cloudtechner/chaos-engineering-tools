@@ -24,4 +24,4 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 | Feature | Gremlin | Litmus |
 | ---- | ------ | --- |
 | Deployment | Cloud-based | On-premises or cloud-based |
-| Supported platforms | AWS | AWS,Azure,Gcp,K8s <br />spring boot,VMware | 
+| Supported platforms |  | AWS,Azure,Gcp,K8s <br />spring boot,VMware | 
