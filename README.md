@@ -1,4 +1,4 @@
-[![CloudTechner - ChaosEngineering](https://img.shields.io/badge/CloudTechner-ChaosEngineering-green)](https://)[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](README.md "Go to project documentation")
+[![CloudTechner - ChaosEngineering](https://img.shields.io/badge/CloudTechner-ChaosEngineering-green)](https://)
 
 # Chaos Engineering
 
