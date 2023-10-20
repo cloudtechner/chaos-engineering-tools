@@ -88,3 +88,4 @@ The listed partners offer enterprise distributions, training, and commercial sup
 * [node drain](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/node-drain.md)
 * [node cpu hog](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/node-cpu-hog.md)
 * [node memory hog](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/node-memory-hog.md)
+* [vm stop](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/vm-stop.md)
