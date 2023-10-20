@@ -1,5 +1,6 @@
-# Chaos Engineering
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
 
+# Chaos Engineering
 
 <img width="667" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/f231578d-fa12-4fef-931b-6d35c5dc08e6">
 
