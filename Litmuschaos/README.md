@@ -1,3 +1,5 @@
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](README.md "Go to project documentation")
+
 # LitmusChaos
 
 ![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/124ebca0-9760-4337-9a88-4a18a6de1554)
