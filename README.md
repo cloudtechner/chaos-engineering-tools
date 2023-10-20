@@ -26,3 +26,4 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 | Deployment | Cloud-based | On-premises or cloud-based |
 | Supported platforms |  | AWS,Azure,Gcp,K8s <br />spring boot,VMware | 
 | monitoring | | Need to install manually |
+| Types of experiments | | 1. Pod chaos<br />2. Node chaos<br />3. Network chaos<br />4. Stress chaos<br />5. vm stop<br />6. Vmware stop |
