@@ -1,7 +1,5 @@
 # Chaos Engineering
 
-[![GitHub tag](https://img.shields.io/github/tag/PankajHolariya/ChaosEngineering?include_prereleases=&sort=semver&color=green)](https://github.com/PankajHolariya/ChaosEngineering/releases/)
-[![License](https://img.shields.io/badge/License-Cloudtechner-green)](#license)
 
 <img width="667" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/f231578d-fa12-4fef-931b-6d35c5dc08e6">
 
