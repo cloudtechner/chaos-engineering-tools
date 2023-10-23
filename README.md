@@ -30,3 +30,5 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 | monitoring | | Need to install manually |
 | Types of experiments | 1.Resource Exhaustion<br />2.The Network is Not Reliable<br />3.Datastore saturation<br />4.DNS Unavailability | [all_chaos_list](https://litmuschaos.github.io/litmus/experiments/categories/contents/#generic)<br />1. Pod chaos<br />2. Node chaos<br />3. Network chaos<br />4. Stress chaos<br />5. vm stop<br />6. Vmware stop |
 | Experiment template | | ChaosHub (Faults:50, Experiments:10) |
+| Agent installation | Manual installation required | Automatic installation through Helm chart |
+| Pricing | Commercial | Open source and Commercial |
