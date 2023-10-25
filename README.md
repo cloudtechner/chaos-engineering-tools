@@ -26,7 +26,7 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 | Feature | Gremlin | Litmus |
 | ---- | ------ | --- |
 | Deployment | Cloud-based | On-premises or cloud-based |
-| Pricing | Commercial | Open source and Commercial |
+| Pricing | Commercial | Free and Commercial |
 | Supported platforms | AWS,Azure,GCP,K8s,Bare-metal | AWS,Azure,GCP,K8s,Bare-metal <br />spring boot,VMware | 
 | Monitoring tools | Datadog, New Relic, AppDynamics | Datadog, Prometheus, Grafana <br />(Manual installation) |
 | Types of experiments | 1.Resource Exhaustion<br />2.The Network is Not Reliable<br />3.Datastore saturation<br />4.DNS Unavailability | 1. Pod chaos<br />2. Node chaos<br />3. Network chaos<br />4. Stress chaos<br />5. vm stop<br />6. Vmware stop<br/>[all_chaos_list](https://litmuschaos.github.io/litmus/experiments/categories/contents/#generic) |
