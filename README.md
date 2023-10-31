@@ -33,5 +33,5 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 | Experiment template | No dedicated experiment hub<br/>but 1000+ experimental templates | ChaosHub (Faults:50, Experiments:10) |
 | Agent installation | Manual installation required | Automatic installation through Helm chart |
 | Catagory | | <ul><li>Mainly most experiment focused on k8s</li><li>only vm stop type experiment on vm label</li></ul> |
-| free and commercial diff | |<table>  <thead>  <tr>  <th>Feature</th>  <th>Free</th>  <th>Commercial</th>  </tr>  </thead>  <tbody>  <tr>  <td>Number of<br/> pre-built<br/>experimental templates</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  <tr>  <td>Parallel experiment<br/>execution</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  <tr>  <td>Support for multiple Kubernetes clusters</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  </tbody>  </table> |
+| free and commercial difference | |<table>  <thead>  <tr>  <th>Feature</th>  <th>Free</th>  <th>Commercial</th>  </tr>  </thead>  <tbody>  <tr>  <td>Number of<br/> pre-built<br/>experimental templates</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  <tr>  <td>Parallel experiment<br/>execution</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  <tr>  <td>Support for multiple Kubernetes clusters</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  </tbody>  </table> |
 
