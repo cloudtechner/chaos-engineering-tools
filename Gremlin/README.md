@@ -6,6 +6,56 @@
 
 This repository contains documentation and scripts for conducting chaos engineering experiments using Gremlin on AWS EC2 instances. In this repository, we have performed two experiments: a basic EC2 shutdown experiment and an autoscaling with shutdown experiment. These experiments were conducted using the Gremlin tool to simulate real-world failures and test the system's resiliency.
 
+## Features
+### Attack Types 
+Gremlin provides a wide range of predefined attack types, such as network partition, CPU hog, memory hog, disk I/O, blackhole, DNS attack, and shutdown. These attacks allow users to simulate different failure scenarios and test how their systems respond under adverse conditions.
+
+### Chaos Engineering Scenarios: 
+Gremlin allows users to create and execute chaos engineering experiments based on predefined scenarios. Users can specify the target hosts, choose from various attack types, set the duration and frequency of attacks, and specify criteria for experiment success.
+
+### Safety Checks: 
+Gremlin incorporates safety checks and guards to prevent experiments from causing permanent damage. Users can set up safeguards, including preconditions and rollback plans, to ensure that experiments are halted if predefined conditions are met, thereby maintaining the safety and integrity of the system.
+
+### Integration: 
+Gremlin integrates with popular cloud providers (such as AWS, Azure, and Google Cloud), container orchestration platforms (like Kubernetes and Docker), and other infrastructure tools. This integration allows users to run chaos experiments in their existing environments and seamlessly integrate Gremlin into their workflows.
+
+### Infrastructure and Application Monitoring: 
+Gremlin provides real-time monitoring and visibility into the system's behavior during chaos experiments. Users can view metrics, logs, and other performance indicators to analyze the impact of the chaos and identify areas for improvement.
+
+### Team Collaboration: 
+Gremlin offers collaboration features, enabling teams to work together on chaos engineering experiments. Users can share experiments, collaborate on scenarios, and analyze results collectively, fostering teamwork and knowledge sharing.
+
+### API Access: 
+Gremlin provides a RESTful API, allowing users to programmatically control and automate chaos experiments. This feature is particularly useful for integrating Gremlin into existing automation pipelines and workflows.
+
+### Role-Based Access Control: 
+Gremlin offers role-based access control, allowing organizations to define different levels of access and permissions for team members. This feature enhances security by ensuring that only authorized users can create and manage chaos experiments.
+
+### Documentation and Support: 
+Gremlin provides extensive documentation, tutorials, and support resources to help users get started with chaos engineering and make the most out of the platform. This support ensures that users can effectively use Gremlin to enhance the resilience of their systems.
+
+These features collectively make Gremlin a powerful tool for implementing chaos engineering practices and improving the reliability and robustness of applications and infrastructure.
+
+## Gremlin tiers
+Gremlin is a commercial product developed and maintained by Gremlin Inc., a company specializing in chaos engineering solutions. While there are open-source tools and frameworks available for chaos engineering, Gremlin itself is a paid service that offers additional features, support, and integrations to organizations looking to implement chaos engineering in their environments.
+
+* [Enterprise] (https://app.gremlin.com/login)
+
+## Gremlin Experiments
+* Resource Experiments
+  * CPU (Generates high load for one or more CPU cores.)
+  * Memory (Allocates a specific amount of RAM.)
+  * IO (Puts read/write pressure on I/O devices such as hard disks.)
+  * Disk (Writes files to disk to fill it to a specific percentage.)
+
+* State Experiments
+
+  * Shutdown (Performs a shutdown (and an optional reboot) on the host operating system to test how your system behaves when losing one or more cluster machines.)
+
+  * Time Travel (Changes the host's system time, which can be used to simulate adjusting to daylight saving time and other time-related events.)
+
+  * Process Killer (Kills the specified process, which can be used to simulate application or dependency crashes. Note: Process experiments do not work for Process ID 1, consider a Shutdown experiment instead.)
+
 ## Prerequisites
 
 Before running the experiments, ensure you have the following prerequisites in place:
