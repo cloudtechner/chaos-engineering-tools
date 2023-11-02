@@ -117,6 +117,36 @@ This experiment demonstrates how to test the resiliency of your system when Auto
 
 4. **Observe the Autoscaling Behavior**: Monitor how Autoscaling responds to the instance shutdown. Observe if new instances are launched to replace the terminated ones.
 
+## Experiment 3: Kubernetes
+   * Helm (recommended for Kubernetes)
+     The steps for deploying to Kubernetes with Helm are:
+       * Gather your credentials
+         All Gremlin integration installations require you to use one of Gremlin's authentication methods. With Helm, you can use either signature (i.e. certificate)-based authentication or secret authentication. Secret-based authentication is easier to implement, but we recommend using certificate-based authentication. We'll show both methods in this guide.
+
+First, retrieve your Team ID from your team settings page. Next, if you're using secret-based authentication, create a new secret, copy the secret to a text file (or keep the pop-up open), then continue to the next step.
+
+If you're using certificate-based authentication, generate a new certificate pair, or download an existing certificate pair if one exists. Unzip the folder containing your certificates, then continue to the next step.
+   * for certificate based Authentications:
+     helm install gremlin gremlin/gremlin \
+    --namespace gremlin \
+    --set      gremlin.secret.type=certificate \
+    --set      gremlin.secret.managed=true \
+    --set      gremlin.hostPID=true \
+    --set      gremlin.secret.teamID=YourGremlinTeamID \
+    --set      gremlin.secret.clusterID=YourGremlinClusterID \
+    --set-file gremlin.secret.certificate=/path/to/gremlin.cert \
+    --set-file gremlin.secret.key=/path/to/gremlin.key
+     
+       * Deploy the Helm chart
+         * helm repo add gremlin https://helm.gremlin.com/
+         * kubectl create namespace gremlin
+         
+       * Additional configuration
+       * Verify your installation
+           *kubectl get pods -n gremlin
+         
+   * Manually via YAML files
+   * OpenShift
 ## Cleanup
 
 After conducting the experiments, ensure you clean up any resources to avoid unnecessary costs. Terminate any unused EC2 instances, disable Gremlin attacks, and remove the Gremlin agent from your instances.
