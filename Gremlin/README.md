@@ -42,13 +42,13 @@ Gremlin is a commercial product developed and maintained by Gremlin Inc., a comp
 * [Enterprise] (https://app.gremlin.com/login)
 
 ## Gremlin Experiments
-* Resource Experiments
+### Resource Experiments
   * CPU (Generates high load for one or more CPU cores.)
   * Memory (Allocates a specific amount of RAM.)
   * IO (Puts read/write pressure on I/O devices such as hard disks.)
   * Disk (Writes files to disk to fill it to a specific percentage.)
 
-* State Experiments
+### State Experiments
 
   * Shutdown (Performs a shutdown (and an optional reboot) on the host operating system to test how your system behaves when losing one or more cluster machines.)
 
@@ -56,22 +56,54 @@ Gremlin is a commercial product developed and maintained by Gremlin Inc., a comp
 
   * Process Killer (Kills the specified process, which can be used to simulate application or dependency crashes. Note: Process experiments do not work for Process ID 1, consider a Shutdown experiment instead.)
 
+ ### Network Experiments
+   Network experiments test the impact of lost or delayed traffic to a target. Test how your service behaves when you are unable to reach one of your dependencies, internal or external. Limit the impact to only the traffic you want to test by specifying ports, hostnames, and IP addresses.
+
+   * Blackhole
+   * Certificate Expiry
+   * Latency
+   * Packet Loss
+   * DNS
+
 ## Prerequisites
 
 Before running the experiments, ensure you have the following prerequisites in place:
 
 - Gremlin account: Sign up for a Gremlin account at [https://www.gremlin.com/](https://www.gremlin.com/) and obtain your Gremlin API key.
+
+  <img width="925" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/126565907/ae08788d-78fd-4942-9f35-194d46d604f7">
+
 - AWS account: You need an AWS account with EC2 instances and Autoscaling groups set up.
 
 ## Experiment 1: EC2 Shutdown Experiment
 
 This experiment demonstrates how to simulate an EC2 instance failure using Gremlin. Follow these steps to run the experiment:
+Steps:
+  ** create Experiment
+     <img width="936" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/126565907/11d3c11d-d458-4397-bc69-73064caf90c9">
+
 
 1. **Install Gremlin**: Install Gremlin agent on your EC2 instance(s) that you want to target for the experiment.
-   
-2. **Create a Shutdown Attack**: Use Gremlin's web interface or API to create a shutdown attack targeting the desired EC2 instance. This will simulate the instance being terminated unexpectedly.
+      * Access the Team Settings page in the Gremlin web app.
+      * Click the Configuration tab.
+      * On the Client Configuration File line, click Download to download the file. You'll receive a file named config.yaml.
+Optionally, make any additional configurations to the config.yaml file.
+      * Install Gremlin Package using the following commands:
+        # Add packages needed to install and verify gremlin (already on many systems)
+          sudo apt update && sudo apt install -y apt-transport-https dirmngr
 
-3. **Observe the Impact**: Monitor your application and system behavior during the experiment. Note any disruptions and how your application responds to the instance shutdown.
+        # Add the Gremlin repo
+          echo "deb https://deb.gremlin.com/ release non-free" | sudo tee /etc/apt/sources.list.d/gremlin.list
+
+        # Import the GPG key
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9CDB294B29A5B1E2E00C24C022E8EF3461A50EF6
+
+        # Install Gremlin
+          sudo apt update && sudo apt install -y gremlin gremlind
+   
+3. **Create a Shutdown Attack**: Use Gremlin's web interface or API to create a shutdown attack targeting the desired EC2 instance. This will simulate the instance being terminated unexpectedly.
+
+4. **Observe the Impact**: Monitor your application and system behavior during the experiment. Note any disruptions and how your application responds to the instance shutdown.
 
 ## Experiment 2: Autoscaling with Shutdown Experiment
 
