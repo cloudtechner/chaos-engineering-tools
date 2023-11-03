@@ -15,7 +15,8 @@ Netflix designed Chaos Monkey to test system stability by enforcing failures via
 
 ## What is Chaos Engineering?
 
-**Chaos Engineering** is the discipline of experimenting on a distributed system in order to build confidence in the system's capability to withstand turbulent conditions in production. Chaos Monkey helped jumpstart Chaos Engineering as a new engineering practice. Chaos Engineering is a disciplined approach to identifying failures before they become outages. By proactively testing how a system responds to failure conditions, you can identify and fix failures before they become public-facing outages. Chaos Engineering lets you validate what you think will happen with what is actually happening in your systems. By performing the smallest possible experiments, you can measure, you're able to "break things on purpose" in order to learn how to build more resilient systems.
+<img width="525" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/1c9e1332-3e72-43cd-bffe-60109d4f4976">
+
 
 
 
