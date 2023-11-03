@@ -1,6 +1,6 @@
 # Chaos Monkey Guide
 
-![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/8a47c8ae-5c0b-432c-9397-4f8fa4c3344c)
+![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/3dc79ad2-51be-4fd7-b072-0fc2d10e6181)
 
 
 In 2010, Netflix announced the existence and success of their custom resiliency tool called **Chaos Monkey**.
