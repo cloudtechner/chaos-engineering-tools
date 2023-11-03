@@ -31,15 +31,7 @@ The Chaos Monkey Guide for Engineers is a comprehensive resource on Chaos Monkey
 
 The **Simian Army** section explores all the additional tools created after Chaos Monkey.
 
-This guide also includes resources, tutorials, and downloads for engineers seeking to improve their own Chaos Engineering practices. In fact, our alternative technologies chapter goes above and beyond by examining a curated list of the best alternatives to Chaos Monkey -- we dig into everything from Azure and Docker to Kubernetes and VMware!
 
-## Getting Started
-
-To get started with Chaos Monkey and learn how to improve the resiliency of your systems, follow the instructions and tutorials in this guide.
-
-## Contributing
-
-If you'd like to contribute to this guide or have suggestions for improvement, please feel free to [contribute](CONTRIBUTING.md).
 
 
 
