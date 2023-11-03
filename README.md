@@ -8,6 +8,11 @@
 
 Chaos engineering is the discipline of experimenting on a software system in production in order to build confidence in the system's capability to withstand turbulent and unexpected conditions. Chaos engineering is a disciplined approach to identifying failures before they become outages.
 
+## Face of Chaos Engineering
+
+![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d674f5c7-4257-4039-b640-a5c1dae47a15)
+
+
 ## What is advantage of chaos engineering?
 
 * **Improved system resilience:** Chaos engineering helps to identify and fix weaknesses in a system before they cause outages in production. This makes the system more resilient to unexpected failures.
