@@ -13,7 +13,9 @@ In 2010, Netflix decided to move their systems to the cloud. In this new environ
 
 Netflix designed Chaos Monkey to test system stability by enforcing failures via the pseudo-random termination of instances and services within Netflix's architecture. Following their migration to the cloud, Netflix's service was newly reliant upon Amazon Web Services and needed a technology that could show them how their system responded when critical components of their production service infrastructure were taken down. Intentionally causing this single failure would suss out any weaknesses in their systems and guide them towards automated solutions that gracefully handle future failures of this sort.
 
-## What is Chaos Engineering?
+## ChaosMonkey Architecture
+
+<img width="548" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/36fc4c89-4b3f-4c3a-92fb-43ec8c2a2231">
 
 <img width="525" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/1c9e1332-3e72-43cd-bffe-60109d4f4976">
 
