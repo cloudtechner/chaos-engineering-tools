@@ -30,7 +30,7 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 
 | Feature | Gremlin | Litmus |
 | ---- | ------ | --- |
-| Deployment | Cloud-based | On-premises or cloud-based |
+| Deployment | SAAS | On-premises or SAAS |
 | Pricing | Commercial | Free and Commercial |
 | Supported platforms | AWS,Azure,GCP,K8s,Bare-metal | AWS,Azure,GCP,K8s,Bare-metal <br />spring boot,VMware | 
 | Monitoring tools | Datadog, New Relic, AppDynamics | Datadog, Prometheus, Grafana <br />(Manual installation) |
