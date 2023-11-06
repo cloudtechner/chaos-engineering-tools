@@ -19,10 +19,10 @@ In this experiment, we will simulate an instance shutdown scenario and observe h
    * Stress Memory
    * Stress IO
    * Stress CPU
-*State
-   *Shutdown host
-   *Stop Process
-   *Time Travel
+* State
+   * Shutdown host
+   * Stop Process
+   * Time Travel
 
 
 ## Prerequisites
@@ -32,26 +32,26 @@ AWS Account: You should have an active AWS account with access to the EC2 instan
 
 ## Steps to Perform the Experiment
 1. Configure Steadybit Experiment
-*Login to Steadybit:
+* Login to Steadybit:
 Open your web browser and navigate to the Steadybit dashboard.
 Log in using your credentials.
-*Create a New Experiment:
+* Create a New Experiment:
     Create a new experiment in Steadybit.
     Define the experiment parameters, including the target EC2 instance(s) and the experiment duration.
-*Configure Actions:
+* Configure Actions:
     Configure the actions to be performed during the experiment. For this experiment, set an action to simulate the shutdown of the selected EC2 instance(s).
-*Run the Experiment
+* Run the Experiment
     Start the Experiment:
     Start the experiment in Steadybit to initiate the simulation.
-*Monitor and Analyze
+* Monitor and Analyze
     Observe Instance Behavior:
     Monitor the behavior of the EC2 instance(s) during the experiment.
 ## Note how the system reacts to the simulated shutdown event.
-*Analyze Results:
+* Analyze Results:
     Analyze the experiment results provided by Steadybit.
     Evaluate how the system behaved, and identify any issues or improvements needed in your system's resilience.
 ## Post-Experiment Steps
-*Document Observations:
+* Document Observations:
     Document your observations and insights from the experiment.
 ## Note any unexpected behavior, errors, or improvements observed during the experiment.
     Adjust System Configuration (If Needed):
