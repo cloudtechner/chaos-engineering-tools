@@ -37,6 +37,6 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 | Types of experiments | 1.Resource Exhaustion<br />2.The Network is Not Reliable<br />3.Datastore saturation<br />4.DNS Unavailability | 1. Pod chaos<br />2. Node chaos<br />3. Network chaos<br />4. Stress chaos<br />5. vm stop<br />6. Vmware stop<br/>[all chaos list](https://litmuschaos.github.io/litmus/experiments/categories/contents/#generic) |
 | Experiment template | No dedicated experiment hub<br/>but 1000+ experimental templates | ChaosHub (Faults:50, Experiments:10) |
 | Agent installation | Manual installation required | Automatic installation through Helm chart |
-| Catagory | | <ul><li>Mainly most experiment focused on k8s</li><li>only vm stop type experiment on vm label</li></ul> |
+| Catagory |<ul><li>it focus on every resource except start in instances</li><li>we can work with k8s resources as well</li></ul> | <ul><li>Mainly most experiment focused on k8s</li><li>only vm stop type experiment on vm label</li></ul> |
 | free and commercial difference | |<table>  <thead>  <tr>  <th>Feature</th>  <th>Free</th>  <th>Commercial</th>  </tr>  </thead>  <tbody>  <tr>  <td>Number of<br/> pre-built<br/>experimental templates</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  <tr>  <td>Parallel experiment<br/>execution</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  <tr>  <td>Support for multiple Kubernetes clusters</td>  <td>Limited</td>  <td>Unlimited</td>  </tr>  </tbody>  </table> |
 
