@@ -8,17 +8,17 @@ In this experiment, we will simulate an instance shutdown scenario and observe h
 
 ## Features
 ### Attack Types 
-*Network 
-   *Package Corruption
-   *Delay Traffic
-   *BLock Traffic
-   *Drop Outgoing traffic
-   *Block DNS
-   *Limit Bandwidth
-*Resource
-   *Stress Memory
-   *Stress IO
-   *Stress CPU
+* Network 
+   * Package Corruption
+   * Delay Traffic
+   * BLock Traffic
+   * Drop Outgoing traffic
+   * Block DNS
+   * Limit Bandwidth
+* Resource
+   * Stress Memory
+   * Stress IO
+   * Stress CPU
 *State
    *Shutdown host
    *Stop Process
