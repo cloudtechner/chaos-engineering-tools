@@ -46,6 +46,8 @@ Log in using your credentials.
 * Monitor and Analyze
     Observe Instance Behavior:
     Monitor the behavior of the EC2 instance(s) during the experiment.
+<img width="944" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/126565907/7eafb719-cbd3-400d-836d-9490effd01a9">
+
 ## Note how the system reacts to the simulated shutdown event.
 * Analyze Results:
     Analyze the experiment results provided by Steadybit.
