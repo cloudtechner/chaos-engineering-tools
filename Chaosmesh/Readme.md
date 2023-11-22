@@ -1,4 +1,3 @@
-# Chaosmesh
 
 ![Alt text](image.png)
 
