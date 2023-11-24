@@ -12,6 +12,9 @@ Chaos Mesh is a CNCF(open source) project for chaos engineering. Chaos mesh dedi
 
 Installation guide: https://chaos-mesh.org/docs/production-installation-using-helm/
 
+## Enable or disable permission authentication
+
+`helm upgrade chaos-mesh chaos-mesh/chaos-mesh --namespace=chaos-mesh --version 2.6.2 --set dashboard.securityMode=false`
 
 # Experiments
 
