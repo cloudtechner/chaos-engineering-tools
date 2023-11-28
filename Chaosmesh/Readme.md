@@ -18,6 +18,9 @@ Installation guide: https://chaos-mesh.org/docs/production-installation-using-he
 
 # Experiments
 
+## Types of experiments
+* types: https://chaos-mesh.org/docs/basic-features/
+
 ## Pod kill:
 
 <img width="958" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/10e0a140-5357-4bb2-821f-318f09b25ce5">
