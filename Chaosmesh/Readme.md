@@ -18,8 +18,11 @@ Installation guide: https://chaos-mesh.org/docs/production-installation-using-he
 
 # Experiments
 
-## Types of experiments
-* types: https://chaos-mesh.org/docs/basic-features/
+## Types of chaos experiments
+<img width="219" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/02720553-e82d-4367-9392-d7fdfc0adf00">
+
+* Kubernetes: https://chaos-mesh.org/docs/simulate-pod-chaos-on-kubernetes/
+* Physical: https://chaos-mesh.org/docs/chaosd-overview/
 
 ## Pod chaos:
 
