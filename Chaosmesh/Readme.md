@@ -26,8 +26,8 @@ Installation guide: https://chaos-mesh.org/docs/production-installation-using-he
 
 ## Tools integration
 
-Github Action: https://chaos-mesh.org/docs/integrate-chaos-mesh-into-github-actions/
-Datasource for Grafana: https://chaos-mesh.org/docs/use-grafana-data-source/
+* Github Action: https://chaos-mesh.org/docs/integrate-chaos-mesh-into-github-actions/
+* Datasource for Grafana: https://chaos-mesh.org/docs/use-grafana-data-source/
 
 ## Exmaple:
 
