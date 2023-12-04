@@ -60,6 +60,15 @@ Log in using your credentials.
       Based on the experiment results, make necessary adjustments to your system configuration or resilience strategies.
 Additional Resources
 
+## steadybit Kubernetes Agent Helm Chart
+ This Helm chart adds the steadybit Agent to all nodes in your Kubernetes cluster via a DaemonSet.
+ * Add steadybit Helm repository
+   helm repo add steadybit https://steadybit.github.io/helm-charts
+   helm repo update
+ * Create Kubernetes namespace
+   kubectl create namespace steadybit-agent
+ 
+
 
 
 
