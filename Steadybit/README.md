@@ -67,7 +67,13 @@ Additional Resources
    * helm repo update
  * Create Kubernetes namespace
    * kubectl create namespace steadybit-agent
-  
+ * Installing the chart
+   * To install the chart with the name steadybit-agent and set the values on the command line run:
+     * helm install steadybit-agent --namespace steadybit-agent --set agent.key=STEADYBIT_AGENT_KEY --set cluster.name=CLUSTER_NAME steadybit/steadybit-agent
+     * <img width="948" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/126565907/79ca028a-db57-4be5-b521-9535250b3f24">
+
+ * Uninstallation
+   * helm uninstall steadybit-agent -n steadybit-agent
 
 
 
