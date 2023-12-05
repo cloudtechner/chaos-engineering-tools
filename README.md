@@ -28,11 +28,11 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 
 ## Comparison of chaos engineering tool
 
-| Feature | Gremlin | Litmus | ChaosMesh |
-| ---- | ------ | --- | --- |
-| Deployment | SAAS | On-premises or SAAS | On-premises |
-| Pricing | Commercial | Free and Commercial |Free |
-| Supported platforms | AWS,Azure,GCP,K8s,Bare-metal | AWS,Azure,GCP,K8s,Bare-metal <br />spring boot,VMware | AWS, Azure, GCP, Bare-metal |
+| Feature | Gremlin | Litmus | ChaosMesh | Steadybit |
+| ---- | ------ | --- | --- | --- |
+| Deployment | SAAS | On-premises or SAAS | On-premises | On-premises or SAAS |
+| Pricing | Commercial | Free and Commercial |Free | Commercial |
+| Supported platforms | AWS,Azure,GCP,K8s,Bare-metal | AWS,Azure,GCP,K8s,Bare-metal <br />spring boot,VMware | AWS, Azure, GCP, Bare-metal | AWS,Azure,GCP Kubernetes, Docker,JVM-based applications,Linux Hosts |
 | Monitoring tools | Datadog, New Relic, AppDynamics | Datadog, Prometheus, Grafana <br />(Manual installation) | Grafana (chaos mesh data source) |
 | Types of experiments | 1.Resource Exhaustion<br />2.The Network is Not Reliable<br />3.Datastore saturation<br />4.DNS Unavailability | 1. Pod chaos<br />2. Node chaos<br />3. Network chaos<br />4. Stress chaos<br />5. vm stop<br />6. Vmware stop<br/>[all chaos list](https://litmuschaos.github.io/litmus/experiments/categories/contents/#generic) | [k8s](https://chaos-mesh.org/docs/simulate-pod-chaos-on-kubernetes/) , [Physical node](https://chaos-mesh.org/docs/simulate-process-chaos-in-physical-nodes/) |
 | Experiment template | No dedicated experiment hub<br/>but 1000+ experimental templates | ChaosHub (Faults:50, Experiments:10) | NA |
