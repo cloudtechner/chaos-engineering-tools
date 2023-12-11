@@ -33,7 +33,7 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 
 | Feature | Gremlin | Litmus | ChaosMesh | Steadybit | AWS-FIS |
 | ---- | ------ | --- | --- | --- | --- |
-| **Deployment** | SAAS | On-premises or SAAS | On-premises | On-premises or SAAS | SAAS (aws only) |
+| Deployment | SAAS | On-premises or SAAS | On-premises | On-premises or SAAS | SAAS (aws only) |
 | Pricing | Commercial | Free and Commercial |Free | Commercial | Commercial |
 | Supported platforms | AWS,Azure,GCP,K8s,Bare-metal | AWS,Azure,GCP,K8s,Bare-metal <br />spring boot,VMware | AWS, Azure, GCP, Bare-metal | AWS,Azure,GCP Kubernetes, Docker,JVM-based applications,Linux Hosts | AWS and multi AWS accounts |
 | Monitoring tools | Datadog, New Relic, AppDynamics | Datadog, Prometheus, Grafana <br />(Manual installation) | Grafana (chaos mesh data source) | Instana, Prometheus, Datadog, New Relic | cloud watch, Event bridge |
