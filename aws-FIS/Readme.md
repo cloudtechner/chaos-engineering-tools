@@ -16,8 +16,8 @@ A fully managed service for running fault injection experiments on AWS Which mak
 
 
 
-EC2(instance): https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html
-EKS: https://docs.aws.amazon.com/fis/latest/userguide/eks-pod-actions.html
-ECS: https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
+* **EC2(instance):** https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html
+* **EKS:** https://docs.aws.amazon.com/fis/latest/userguide/eks-pod-actions.html
+* **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
 
 
