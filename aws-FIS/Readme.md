@@ -9,7 +9,11 @@ A fully managed service for running fault injection experiments on AWS Which mak
 * AWS official Tutorials: https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorials.html
 * AWS SAAS service (fully managed service)
 * official documentation: https://docs.aws.amazon.com/fis/
-* We can use AWS FIS through aws-cli and aws console.
+* We can use AWS FIS through **aws-cli** and **aws console** and **FIS api**.
+
+# Pricing for AWS FIS
+
+You are charged per minute that an action runs, from start to finish, based on the number of target accounts for your experiment. For more information.
 
 # Type of experiments
 
