@@ -60,5 +60,23 @@ aws:ssm:send-command
 aws:ssm:start-automation-execution
 ```
 
+# Intregation services
 
+doc link: https://docs.aws.amazon.com/fis/latest/userguide/monitoring-experiments.html
+
+## Monitoring
+* cloud watch 
+* Event bridge
+
+## Logging
+* Experiment logging
+* Log API calls with AWS CloudTrail
+
+# Example
+
+* Creation of FIS experiment template
+![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/1fb066a1-8b7e-4659-9dad-2a9a01e8fa74)
+
+* Excution
+![image](https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d2d3dde6-3b2e-4b65-8c36-5fdedd6fb325)
 
