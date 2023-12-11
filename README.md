@@ -25,6 +25,9 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 
 * [Litmuschaos](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Litmuschaos/README.md)
 * [Gremlin](https://github.com/cloudtechner/chaos-engineering-tools/blob/main/Gremlin/README.md)
+* Chaosmesh
+* Steadybit
+* aws-FIS
 
 ## Comparison of chaos engineering tool
 
