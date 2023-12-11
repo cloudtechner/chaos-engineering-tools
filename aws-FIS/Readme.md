@@ -15,7 +15,8 @@ A fully managed service for running fault injection experiments on AWS Which mak
 
 * **EC2(instance):** https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html
 
-<img width="179" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/dad36f4d-9b98-43bf-be16-ce11e1efd144">
+<img width="160" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/bb538ef4-ba15-4863-a2fd-ae42e90cc939">
+
 
 
 * **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
