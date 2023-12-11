@@ -12,7 +12,6 @@ A fully managed service for running fault injection experiments on AWS Which mak
 * We can use AWS FIS through aws-cli and aws console.
 
 # Type of experiments
-<img width="167" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/8347dfac-8ef4-49d1-bb45-03cc0b2f6dba">
 
 ## List the AWS FIS actions using the AWS CLI
 
@@ -46,6 +45,7 @@ aws:ssm:start-automation-execution
 ```
 
 * **EC2(instance):** https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html
+<img width="167" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/8347dfac-8ef4-49d1-bb45-03cc0b2f6dba"
 
 * **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
 <img width="259" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/88a35dbe-66df-4c45-a060-169136671852">
