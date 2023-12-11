@@ -13,6 +13,15 @@ A fully managed service for running fault injection experiments on AWS Which mak
 
 # Type of experiments
 
+* **EC2(instance):** https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html 
+<img width="160" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/797e0f69-5bdd-4c0b-8a27-2e9c51a3d4de">
+
+* **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
+<img width="259" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/88a35dbe-66df-4c45-a060-169136671852">
+  
+* **EKS:** https://docs.aws.amazon.com/fis/latest/userguide/eks-pod-actions.html
+<img width="272" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d893da50-76bd-4cf8-969c-c2af0011f30b">
+
 ## List the AWS FIS actions using the AWS CLI
 
 ```
@@ -43,18 +52,6 @@ aws:s3:bucket-pause-replication
 aws:ssm:send-command
 aws:ssm:start-automation-execution
 ```
-
-* **EC2(instance):** https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html
-  
-<img width="167" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/8347dfac-8ef4-49d1-bb45-03cc0b2f6dba"
-
-* **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
-<img width="259" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/88a35dbe-66df-4c45-a060-169136671852">
-  
-* **EKS:** https://docs.aws.amazon.com/fis/latest/userguide/eks-pod-actions.html
-<img width="272" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d893da50-76bd-4cf8-969c-c2af0011f30b">
-
-
 
 
 
