@@ -46,12 +46,14 @@ aws:ssm:start-automation-execution
 ```
 
 * **EC2(instance):** https://docs.aws.amazon.com/fis/latest/userguide/fis-tutorial-stop-instances.html
+
+* **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
+<img width="259" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/88a35dbe-66df-4c45-a060-169136671852">
   
 * **EKS:** https://docs.aws.amazon.com/fis/latest/userguide/eks-pod-actions.html
 <img width="272" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d893da50-76bd-4cf8-969c-c2af0011f30b">
 
-* **ECS:** https://docs.aws.amazon.com/fis/latest/userguide/ecs-task-actions.html
- <img width="259" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/88a35dbe-66df-4c45-a060-169136671852">
+
 
 
 
