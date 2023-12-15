@@ -28,6 +28,7 @@ Chaos engineering is the discipline of experimenting on a software system in pro
 * Chaosmesh
 * Steadybit
 * aws-FIS
+* Azure chaos studio
 
 ## Comparison of chaos engineering tool
 
