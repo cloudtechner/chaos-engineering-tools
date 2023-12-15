@@ -8,7 +8,7 @@ Azure Chaos Studio is provided as a service, which means you don’t have to dep
 * About: https://learn.microsoft.com/en-us/azure/chaos-studio/
 * Tutorial: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-run-experiment
 * Azure Chaos studio is SAAS service ((fully managed service by Azure)
-* We can access Azure Chaos Studio via azure portal and azure cli
+* We can use Azure Chaos Studio via azure portal and azure cli and azure chaos packages.
   
 # Pricing for Azure Chaos studio
 
