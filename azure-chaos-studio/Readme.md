@@ -31,7 +31,6 @@ Documentation link: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-s
 * Chaos Azure Active Directory 
 
 ## 
-* AKS faults
 * Time delay
 * CPU pressure
 * Physical memory pressure
@@ -52,3 +51,27 @@ Documentation link: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-s
 <br/>
 
 <img width="145" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d41ca1af-d4f6-43d9-9167-dd59287ff9ed">
+
+# Logging and Monitoring
+
+* Activity log
+* Experiment details
+* Agent logs
+
+# Example 
+
+1. Create VM
+
+<img width="959" alt="Screenshot 2023-12-14 102544" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/ce77e724-f120-4a40-a806-4adeee9df0c3">
+
+2. Create an experiment template
+
+<img width="951" alt="Screenshot 2023-12-14 102642" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/fbdb05e9-0360-42f3-958b-ed6204bcb524">
+
+3. Provide permission
+
+<img width="745" alt="Screenshot 2023-12-14 102622" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/420d67a4-e166-4bcc-89d4-47a7af26c8cd">
+
+4. Start experiment
+
+
