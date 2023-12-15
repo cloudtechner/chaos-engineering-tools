@@ -58,6 +58,11 @@ Documentation link: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-s
 * Experiment details
 * Agent logs
 
+# Limitations
+
+Only supported on a few regions: https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=chaos-studio
+Other: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-limitations
+
 # Example 
 
 1. Create VM
