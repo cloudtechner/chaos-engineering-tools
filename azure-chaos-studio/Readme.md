@@ -16,6 +16,8 @@ You are charged per minute that an action runs, from start to finish, based on t
 
 # Type of experiments
 
+Documentation link: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-fault-library
+
 * Time delay
 * CPU pressure
 * Physical memory pressure
@@ -24,7 +26,15 @@ You are charged per minute that an action runs, from start to finish, based on t
 * Disk I/O pressure (Linux)
 * Arbitrary stress-ng stress
 * Stop service
+* Kill process
+* DNS failure
+* Network latency
+* Network disconnect
+
+# List of faults
 
 <img width="128" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/df0b52c1-362b-46f7-a167-b893af85e3d1">
+
+<br/>
 
 <img width="145" alt="image" src="https://github.com/cloudtechner/chaos-engineering-tools/assets/87966660/d41ca1af-d4f6-43d9-9167-dd59287ff9ed">
