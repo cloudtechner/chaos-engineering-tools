@@ -30,7 +30,7 @@ Documentation link: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-s
 * Dynamic targeting experiment (all vm down of specific zone)
 * Chaos Azure Active Directory 
 
-## 
+## Aspects
 * Time delay
 * CPU pressure
 * Physical memory pressure
