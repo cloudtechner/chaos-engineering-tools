@@ -14,10 +14,24 @@ Azure Chaos Studio is provided as a service, which means you don’t have to dep
 
 You are charged per minute that an action runs, from start to finish, based on the number of target accounts for your experiment. 
 
+# Agent
+
+* experimental agent-based fault
+* experimental service direct fault
+
+
 # Type of experiments
 
 Documentation link: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-fault-library
 
+* Azure Cosmos DB chaos: https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-service-direct-portal
+* Chaos on your virtual machine
+* Chaos on AKS
+* Dynamic targeting experiment (all vm down of specific zone)
+* Chaos Azure Active Directory 
+
+## 
+* AKS faults
 * Time delay
 * CPU pressure
 * Physical memory pressure
